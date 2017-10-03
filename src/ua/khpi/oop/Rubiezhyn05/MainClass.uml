@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ua.khpi.oop.Rubiezhyn05.MainClass</OriginalElement>
+  <nodes>
+    <node x="190.0" y="-34.0">ua.khpi.oop.Rubiezhyn05.MainClass</node>
+    <node x="-142.0" y="33.0">ua.khpi.oop.Rubiezhyn05.MainClass.MyArrayList</node>
+    <node x="-382.5" y="-10.0">ua.khpi.oop.Rubiezhyn05.MainClass.MyArrayList.MyIterator</node>
+    <node x="380.0" y="85.0">ua.khpi.oop.Rubiezhyn05.MainClass.IndWork</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ua.khpi.oop.Rubiezhyn05.MainClass.MyArrayList.MyIterator" target="ua.khpi.oop.Rubiezhyn05.MainClass.MyArrayList">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="158.0" />
+    </edge>
+    <edge source="ua.khpi.oop.Rubiezhyn05.MainClass.MyArrayList" target="ua.khpi.oop.Rubiezhyn05.MainClass">
+      <point x="0.0" y="-158.0" />
+      <point x="134.0" y="76.0" />
+      <point x="235.25" y="76.0" />
+      <point x="-42.25" y="25.5" />
+    </edge>
+    <edge source="ua.khpi.oop.Rubiezhyn05.MainClass.IndWork" target="ua.khpi.oop.Rubiezhyn05.MainClass">
+      <point x="0.0" y="-114.0" />
+      <point x="421.0" y="76.0" />
+      <point x="319.75" y="76.0" />
+      <point x="42.25" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="51.0" y="214.5" />
+  <SelectedNodes>
+    <node>ua.khpi.oop.Rubiezhyn05.MainClass</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

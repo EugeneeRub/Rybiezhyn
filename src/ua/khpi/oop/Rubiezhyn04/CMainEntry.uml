@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ua.khpi.oop.Rubiezhyn04.CMainEntry</OriginalElement>
+  <nodes>
+    <node x="70.0" y="454.0">ua.khpi.oop.Rubiezhyn04.CMainEntry.CMyExeption</node>
+    <node x="0.0" y="0.0">ua.khpi.oop.Rubiezhyn04.CMainEntry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ua.khpi.oop.Rubiezhyn04.CMainEntry.CMyExeption" target="ua.khpi.oop.Rubiezhyn04.CMainEntry">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="202.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="56.0" y="75.5" />
+  <SelectedNodes>
+    <node>ua.khpi.oop.Rubiezhyn04.CMainEntry.CMyExeption</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
