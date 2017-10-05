@@ -3,38 +3,51 @@
   <ID>JAVA</ID>
   <OriginalElement>ua.khpi.oop.Rubiezhyn05.MainClass</OriginalElement>
   <nodes>
-    <node x="190.0" y="-34.0">ua.khpi.oop.Rubiezhyn05.MainClass</node>
-    <node x="-142.0" y="33.0">ua.khpi.oop.Rubiezhyn05.MainClass.MyArrayList</node>
-    <node x="-382.5" y="-10.0">ua.khpi.oop.Rubiezhyn05.MainClass.MyArrayList.MyIterator</node>
-    <node x="380.0" y="85.0">ua.khpi.oop.Rubiezhyn05.MainClass.IndWork</node>
+    <node x="-44.14166666666665" y="-26.0">ua.khpi.oop.Rubiezhyn05.MyArrayList</node>
+    <node x="310.85833333333335" y="154.5">ua.khpi.oop.Rubiezhyn05.MainClass</node>
+    <node x="0.0" y="476.5">ua.khpi.oop.Rubiezhyn05.MyArrayList.MyIterator</node>
+    <node x="207.98333333333332" y="410.0">ua.khpi.oop.Rubiezhyn05.MainClass.IndWork</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="ua.khpi.oop.Rubiezhyn05.MainClass.MyArrayList.MyIterator" target="ua.khpi.oop.Rubiezhyn05.MainClass.MyArrayList">
-      <point x="0.0" y="-47.5" />
-      <point x="0.0" y="158.0" />
-    </edge>
-    <edge source="ua.khpi.oop.Rubiezhyn05.MainClass.MyArrayList" target="ua.khpi.oop.Rubiezhyn05.MainClass">
-      <point x="0.0" y="-158.0" />
-      <point x="134.0" y="76.0" />
-      <point x="235.25" y="76.0" />
-      <point x="-42.25" y="25.5" />
-    </edge>
     <edge source="ua.khpi.oop.Rubiezhyn05.MainClass.IndWork" target="ua.khpi.oop.Rubiezhyn05.MainClass">
       <point x="0.0" y="-114.0" />
-      <point x="421.0" y="76.0" />
-      <point x="319.75" y="76.0" />
-      <point x="42.25" y="25.5" />
+      <point x="340.98333333333335" y="385.0" />
+      <point x="339.02500000000003" y="385.0" />
+      <point x="-56.333333333333314" y="25.5" />
+    </edge>
+    <edge source="ua.khpi.oop.Rubiezhyn05.MainClass.IndWork" target="ua.khpi.oop.Rubiezhyn05.MyArrayList">
+      <point x="-53.19999999999999" y="-114.0" />
+      <point x="287.7833333333333" y="385.0" />
+      <point x="257.35833333333335" y="385.0" />
+      <point x="100.5" y="180.0" />
+    </edge>
+    <edge source="ua.khpi.oop.Rubiezhyn05.MainClass" target="ua.khpi.oop.Rubiezhyn05.MainClass.IndWork">
+      <point x="56.33333333333337" y="25.5" />
+      <point x="451.6916666666667" y="385.0" />
+      <point x="447.3833333333333" y="385.0" />
+      <point x="106.39999999999998" y="-114.0" />
+    </edge>
+    <edge source="ua.khpi.oop.Rubiezhyn05.MyArrayList" target="ua.khpi.oop.Rubiezhyn05.MyArrayList.MyIterator">
+      <point x="-33.5" y="180.0" />
+      <point x="41.25" y="-47.5" />
+    </edge>
+    <edge source="ua.khpi.oop.Rubiezhyn05.MyArrayList.MyIterator" target="ua.khpi.oop.Rubiezhyn05.MyArrayList">
+      <point x="-41.25" y="-47.5" />
+      <point x="41.25" y="385.0" />
+      <point x="56.35833333333335" y="385.0" />
+      <point x="-100.5" y="180.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="51.0" y="214.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="415.0" y="305.5" />
   <SelectedNodes>
-    <node>ua.khpi.oop.Rubiezhyn05.MainClass</node>
+    <node>ua.khpi.oop.Rubiezhyn05.MyArrayList</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
-    <Category>Methods</Category>
     <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
