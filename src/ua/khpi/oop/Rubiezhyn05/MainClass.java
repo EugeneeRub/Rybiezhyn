@@ -1,34 +1,21 @@
 package ua.khpi.oop.Rubiezhyn05;
-
-import java.util.Collection;
-import java.util.List;
-import ua.khpi.oop.Rubiezhyn05.MyArrayList;
+import java.util.Scanner;
 
 /**
  * @author  Евгений Рубежин
  * Группа: КИТ-16а
  * Вимоги
  *
- * Розробити клас-контейнер, що ітерується для збереження початкових даних завдання л.р. №3 у вигляді масиву рядків з можливістю додавання, видалення і зміни елементів.
- * В контейнері реалізувати та продемонструвати наступні методи:
+ * 1) Реалізувати і продемонструвати тривале зберігання/відновлення раніше
+ * розробленого контейнера за допомогою серіалізації/десеріалізації.
+ * 2) Обмінятися відкомпільованим (без початкового коду) службовим класом (Utility Class)
+ * рішення задачі л.р. №3 з іншим студентом (визначає викладач).
+ * 3) Продемонструвати послідовну та вибіркову обробку елементів розробленого
+ * контейнера за допомогою власного і отриманого за обміном службового класу.
+ * 4) Реалізувати та продемонструвати порівняння, сортування та пошук елементів у контейнері.
+ * 5) Розробити консольну програму та забезпечити діалоговий
+ *  режим роботи з користувачем для демонстрації та тестування рішення.
  *
- * String toString() повертає вміст контейнера у вигляді рядка;
- * void add(String string) додає вказаний елемент до кінця контейнеру;
- * void clear() видаляє всі елементи з контейнеру;
- * boolean remove(String string) видаляє перший випадок вказаного елемента з контейнера;
- * Object[] toArray() повертає масив, що містить всі елементи у контейнері;
- * int size() повертає кількість елементів у контейнері;
- * boolean contains(String string) повертає true, якщо контейнер містить вказаний елемент;
- * boolean containsAll(Container container) повертає true, якщо контейнер містить всі елементи з зазначеного у параметрах;
- * public Iterator<String> iterator() повертає ітератор відповідно до Interface Iterable.
- *
- * В класі ітератора відповідно до Interface Iterator реалізувати методи:
- * public boolean hasNext();
- * public String next();
- * public void remove().
- * Продемонструвати роботу ітератора за допомогою циклів while и for each.
- *
- * Забороняється використання контейнерів (колекцій) і алгоритмів з Java Collections Framework.
  */
 public class MainClass {
 
@@ -36,23 +23,35 @@ public class MainClass {
      * Главный вызывающийся метод
      * @param args массив принимаемы аргументов
      * */
-    public static  void main(String[] args) {
-
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String string;
         MyArrayList<String> mlist = new MyArrayList<>();
 
-        //System.out.println(mlist.toString());
-        //RubezhinClass work = new RubezhinClass(mlist);
-        //work.getTextFromConsole();// вызов ф-ции получения текста
-        //int []mArray = work.raspredelenieTextData();// вызов ф-ции распределения строк
-        //String []mArrayOfSmallText = work.findMinTextsFromTextArray();// вызов ф-ции нахождения минимальных строк в группах
-        ///* Вывод результа на консоль */
-        //System.out.println("Самые маленькие строки");
-        //for (int i = 0; i < mArray.length; i++) {
-        //    if(mArray[i] != 0){
-        //        System.out.println(mArrayOfSmallText[i] + " = " + mArrayOfSmallText[i].length() + " длинна строки");
-        //    }
-        //}
+        System.out.println("Пожалуйста введите строки(для завешения введите _st)");
+        while (true) {
+            string = (in.nextLine());
+            if ((string).equals("_st")) {
+                System.out.println("Завершение ввода");
+                break;
+            } else mlist.add(string);
+        }
+        if (mlist.size() == 0) {
+            System.out.println("Данные не введены!!!");
+            return;
+        }
 
+        RubezhinClass work = new RubezhinClass(mlist);
+
+        int []mArray = work.raspredelenieTextData();// вызов ф-ции распределения строк
+        String []mArrayOfSmallText = work.findMinTextsFromTextArray();// вызов ф-ции нахождения минимальных строк в группах
+        /* Вывод результа на консоль */
+        System.out.println("Самые маленькие строки");
+        for (int i = 0; i < mArray.length; i++) {
+            if(mArray[i] != 0){
+                System.out.println(mArrayOfSmallText[i] + " = " + mArrayOfSmallText[i].length() + " длинна строки");
+            }
+        }
     }
 }
 

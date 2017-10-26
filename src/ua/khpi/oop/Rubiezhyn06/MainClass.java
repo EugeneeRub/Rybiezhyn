@@ -84,8 +84,8 @@ public class MainClass {
                 case "seeData":
                     System.out.println("See Data");
                     int counter = 0;
-                    for (Iterator<String> it = list.iterator(); it.hasNext();){
-                        System.out.println(counter + "." + it.next());
+                    for (String sstring : list){
+                        System.out.println(counter + "." + sstring);
                     }
                     break;
                 case "help":

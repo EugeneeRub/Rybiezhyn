@@ -2,7 +2,6 @@ package ua.khpi.oop.Rubiezhyn05;
 
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -13,34 +12,12 @@ class RubezhinClass {
      private Collection<String> list;// свой контейнер для сохранения строк
      private Scanner in = new Scanner(System.in); // читаем из командной строки
      private String[][] mArrayOfStrings; // двумерный массив для работы с данными
-     private StringBuilder string = new StringBuilder(); // хранение строк
+     private StringBuilder string; // хранение строк
      private String[] mArrayOfSmallText = new String[3];// масив для хранения последнего результата
      private int[] counters = {0, 0, 0}; // счетчики элементов в двумерном массиве
 
     RubezhinClass(Collection<String> _list){
         list = _list;
-    }
-
-    /**
-     * Ввод из командной строки
-     * Проверка строки, если она равна _st то выход из цикла
-     * Строки записываются в ArrayList
-     */
-    public void getTextFromConsole() {
-        System.out.println("Пожалуйста введите строки(для завешения введите _st)");
-        while (true) {
-            string.append(in.nextLine());
-            if ((string.toString()).equals("_st")) {
-                System.out.println("Завершение ввода");
-                break;
-            } else list.add(string.toString());
-            string.delete(0, string.length());// очистка StringBuilder перед новой записью
-        }
-
-        if (list.size() == 0) {
-            System.out.println("Данные не введены!!!");
-            return;
-        }
     }
 
     /**

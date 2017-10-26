@@ -3,18 +3,29 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="3" />
   </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Rubiezhyn:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f957dc9c-101a-4e92-80aa-a7913d5aa89e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MyArrayList.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/MainClass$IndWork.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/MyArrayList$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/MyArrayList$MyIterator.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.uml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn04/CMainEntry$CMyExeption.class" afterPath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn04/CMainEntry$CMyExeption.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn04/CMainEntry.class" afterPath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn04/CMainEntry.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/MainClass.class" afterPath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/MainClass.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/MainClass.uml" afterPath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/MainClass.uml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/MyArrayList$MyIterator.class" afterPath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/MyArrayList$MyIterator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/MyArrayList.class" afterPath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/MyArrayList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/RubezhinClass.class" afterPath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn05/RubezhinClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn06/MainClass.class" afterPath="$PROJECT_DIR$/out/production/Rubiezhyn/ua/khpi/oop/Rubiezhyn06/MainClass.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rubiezhyn.iml" afterPath="$PROJECT_DIR$/Rubiezhyn.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn04/CMainEntry.java" afterPath="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn04/CMainEntry.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.java" afterPath="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MyArrayList.java" afterPath="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MyArrayList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/RubezhinClass.java" afterPath="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/RubezhinClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass.java" afterPath="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,20 +42,58 @@
     <SUITE FILE_PATH="coverage/Rubiezhyn$CMain__1_.coverage" NAME="CMain (1) Coverage Results" MODIFIED="1505324695806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ua.khpi.oop.Rubiezhyn03.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Rubiezhyn$MainClass__3_.coverage" NAME="MainClass (3) Coverage Results" MODIFIED="1508951599988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.khpi.oop.Rybiezhyn08.*</FILTER>
+    </SUITE>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Rubiezhyn" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass.java">
+      <file leaf-file-name="PoliceCardBoard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/PoliceCardBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="docComment;method#PoliceCardBoard#0;class#PoliceCardBoard#0" expanded="false" />
+                <element signature="method#PoliceCardBoard#0;class#PoliceCardBoard#0" expanded="false" />
+                <element signature="docComment;method#getNumberOfCardBoard#0;class#PoliceCardBoard#0" expanded="false" />
+                <element signature="docComment;method#getArrayOfPrisoner#0;class#PoliceCardBoard#0" expanded="false" />
+                <element signature="docComment;method#setArrayOfPrisoner#0;class#PoliceCardBoard#0" expanded="false" />
+                <element signature="docComment;method#addPrisoner#0;class#PoliceCardBoard#0" expanded="false" />
+                <element signature="method#addPrisoner#0;class#PoliceCardBoard#0" expanded="false" />
+                <element signature="docComment;method#removePrisoner#0;class#PoliceCardBoard#0" expanded="false" />
+                <element signature="method#removePrisoner#0;class#PoliceCardBoard#0" expanded="false" />
+                <element signature="docComment;method#get#0;class#PoliceCardBoard#0" expanded="false" />
+                <element signature="method#get#0;class#PoliceCardBoard#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrisonerInfo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/PrisonerInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#seeData#0;class#MainClass#0" expanded="false" />
+                <element signature="docComment;class#PrisonerInfo#0" expanded="false" />
+                <element signature="docComment;method#PrisonerInfo#0;class#PrisonerInfo#0" expanded="false" />
+                <element signature="docComment;method#PrisonerInfo#1;class#PrisonerInfo#0" expanded="false" />
+                <element signature="method#PrisonerInfo#1;class#PrisonerInfo#0" expanded="false" />
+                <element signature="docComment;method#getPerson#0;class#PrisonerInfo#0" expanded="false" />
+                <element signature="docComment;method#setPerson#0;class#PrisonerInfo#0" expanded="false" />
+                <element signature="docComment;method#getMListOfSpecialSigns#0;class#PrisonerInfo#0" expanded="false" />
+                <element signature="docComment;method#setMListOfSpecialSigns#0;class#PrisonerInfo#0" expanded="false" />
+                <element signature="method#setMListOfSpecialSigns#0;class#PrisonerInfo#0" expanded="false" />
+                <element signature="docComment;method#getMDateOfGoToJail#0;class#PrisonerInfo#0" expanded="false" />
+                <element signature="docComment;method#setMDateOfGoToJail#0;class#PrisonerInfo#0" expanded="false" />
+                <element signature="docComment;method#getMDateOfGoFromJail#0;class#PrisonerInfo#0" expanded="false" />
+                <element signature="docComment;method#setMDateOfGoFromJail#0;class#PrisonerInfo#0" expanded="false" />
+                <element signature="method#setMDateOfGoFromJail#0;class#PrisonerInfo#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -79,30 +128,51 @@
         <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn01/CMain.java" />
         <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn04/main.java" />
-        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn04/CMainEntry.java" />
         <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn02/main.java" />
         <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn03/CMain.java" />
         <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/SerialClass.java" />
         <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass2.java" />
         <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/IndWork.java" />
+        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn04/CMainEntry.java" />
         <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/RubezhinClass.java" />
         <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MyArrayList.java" />
-        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.java" />
         <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/PrintLine.java" />
+        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/MyPrint.java" />
+        <option value="D:/x.xml" />
+        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/ReadFromJSON.java" />
+        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/WriteToJSON.java" />
+        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/ConsoleWork.java" />
+        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/Person.java" />
+        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/PoliceCardBoard.java" />
+        <option value="$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/PrisonerInfo.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="442" />
-    <option name="y" value="-21" />
+    <option name="x" value="458" />
+    <option name="y" value="-17" />
     <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="height" value="703" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -119,6 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
@@ -145,20 +216,6 @@
               <item name="Rubiezhyn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="Rubiezhyn03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rubiezhyn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rubiezhyn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="Rubiezhyn04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rubiezhyn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rubiezhyn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="Rubiezhyn05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -166,26 +223,33 @@
               <item name="Rubiezhyn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="Rubiezhyn06" type="462c0819:PsiDirectoryNode" />
+              <item name="Rybiezhyn07" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Processing.jar!/" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="Module setting&#9;null&#9;null" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\Rubiezhyn\src\ua\khpi\oop\Rybiezhyn08" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\Rubiezhyn\src\ua\khpi\oop\Rubiezhyn05" />
       <recent name="D:\IDEA\Rubiezhyn\src\ua\khpi\oop\Rubiezhyn03" />
     </key>
   </component>
@@ -201,45 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainClass (1)">
-    <configuration name="CMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ua.khpi.oop.Rubiezhyn03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ua.khpi.oop.Rubiezhyn03.CMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Rubiezhyn" />
-      <envs />
-    </configuration>
-    <configuration name="CMainEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ua.khpi.oop.Rubiezhyn04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ua.khpi.oop.Rubiezhyn04.CMainEntry" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Rubiezhyn" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.MainClass (2)">
     <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -248,6 +274,44 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ua.khpi.oop.Rubiezhyn06.MainClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Rubiezhyn" />
+      <envs />
+    </configuration>
+    <configuration name="MainClass (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ua.khpi.oop.Rybiezhyn07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ua.khpi.oop.Rybiezhyn07.MainClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Rubiezhyn" />
+      <envs />
+    </configuration>
+    <configuration name="MainClass (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ua.khpi.oop.Rybiezhyn08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ua.khpi.oop.Rybiezhyn08.MainClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -378,24 +442,27 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CMain (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CMainEntry" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MainClass" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MainClass (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MainClass2" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MainClass" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainClass (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MainClass2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MainClass (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MainClass (3)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainClass (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainClass" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainClass2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CMainEntry" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CMain (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MainClass (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainClass (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainClass (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MainClass" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MainClass2" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -426,11 +493,33 @@
       <workItem from="1507121164883" duration="11461000" />
       <workItem from="1507182198272" duration="3905000" />
       <workItem from="1507206755554" duration="3932000" />
+      <workItem from="1507211553172" duration="4149000" />
+      <workItem from="1507275178858" duration="80000" />
+      <workItem from="1507305098745" duration="707000" />
+      <workItem from="1507366144755" duration="177000" />
+      <workItem from="1507385132076" duration="1607000" />
+      <workItem from="1507472943927" duration="47000" />
+      <workItem from="1507787250410" duration="3874000" />
+      <workItem from="1507803846624" duration="1276000" />
+      <workItem from="1507806884268" duration="713000" />
+      <workItem from="1508068182513" duration="4000000" />
+      <workItem from="1508255746946" duration="359000" />
+      <workItem from="1508326810703" duration="744000" />
+      <workItem from="1508331097142" duration="227000" />
+      <workItem from="1508343502888" duration="637000" />
+      <workItem from="1508391714195" duration="1165000" />
+      <workItem from="1508393918055" duration="613000" />
+      <workItem from="1508413461782" duration="395000" />
+      <workItem from="1508484732452" duration="261000" />
+      <workItem from="1508773379604" duration="1200000" />
+      <workItem from="1508858774862" duration="11189000" />
+      <workItem from="1508926490363" duration="31614000" />
+      <workItem from="1508996612465" duration="3951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93570000" />
+    <option name="totallyTimeSpent" value="162555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,21 +540,21 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47350428" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3846154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3794872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22087745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20045386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47350428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5880342" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -474,6 +563,36 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47350428" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5880342" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45811966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2632375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -528,38 +647,152 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass.java</url>
-          <line>131</line>
-          <properties />
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass.java</url>
           <line>24</line>
           <properties />
           <option name="timeStamp" value="126" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass.java</url>
-          <line>116</line>
-          <properties class="ua.khpi.oop.Rubiezhyn06.MainClass" method="serializeData">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="123" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/MainClass.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/MainClass.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/MainClass.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/MainClass.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="166" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="127" />
+      <option name="time" value="175" />
     </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="Rubiezhyn" type="b2602c69:ProjectViewProjectNode" />
+        <item name="Rubiezhyn" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/RubezhinClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#MainClass#0" expanded="false" />
+            <element signature="method#seeData#0;class#MainClass#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/RubezhinClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="39" column="54" lean-forward="false" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/RubezhinClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="54" lean-forward="false" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/RubezhinClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="52" lean-forward="false" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/RubezhinClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="52" lean-forward="false" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#seeData#0;class#MainClass#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -567,16 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="docComment;method#getTextFromConsole#0;class#RubezhinClass#0" expanded="false" />
-            <element signature="method#getTextFromConsole#0;class#RubezhinClass#0" expanded="false" />
-            <element signature="docComment;method#raspredelenieTextData#0;class#RubezhinClass#0" expanded="false" />
-            <element signature="method#raspredelenieTextData#0;class#RubezhinClass#0" expanded="false" />
-            <element signature="docComment;method#findMinTextsFromTextArray#0;class#RubezhinClass#0" expanded="false" />
-            <element signature="method#findMinTextsFromTextArray#0;class#RubezhinClass#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,35 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="56" column="6" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#MyArrayList#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#sort#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#sort#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#toString#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#get#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#contains#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#contains#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#toArray#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#add#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#add#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#remove#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#remove#1;class#MyArrayList#0" expanded="false" />
-            <element signature="method#remove#1;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#containsAll#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#containsAll#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#iterator#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;class#MyIterator#0;class#MyArrayList#0" expanded="false" />
-            <element signature="class#MyIterator#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#hasNext#0;class#MyIterator#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#next#0;class#MyIterator#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#remove#0;class#MyIterator#0;class#MyArrayList#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,10 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#MainClass#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,10 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#MainClass#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,24 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#MainClass#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn02/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="860" column="0" lean-forward="true" selection-start-line="860" selection-start-column="0" selection-end-line="860" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -686,7 +854,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1089">
           <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass2.java" />
+    <entry file="uml://JAVA/java.lang.String">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.lang.String</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.CharSequence</node>
+            <node x="" y="">java.lang.Comparable</node>
+            <node x="" y="">java.lang.String</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="192.0" y="54.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -696,18 +885,46 @@
           <ID>JAVA</ID>
           <OriginalElement>ua.khpi.oop.Rubiezhyn05.MainClass</OriginalElement>
           <nodes>
-            <node x="" y="">ua.khpi.oop.Rubiezhyn05.MyArrayList</node>
-            <node x="" y="">ua.khpi.oop.Rubiezhyn05.MainClass</node>
-            <node x="" y="">ua.khpi.oop.Rubiezhyn05.MyArrayList.MyIterator</node>
-            <node x="" y="">ua.khpi.oop.Rubiezhyn05.MainClass.IndWork</node>
+            <node x="305.0" y="266.5">ua.khpi.oop.Rubiezhyn05.RubezhinClass</node>
+            <node x="0.0" y="145.0">ua.khpi.oop.Rubiezhyn05.MyArrayList</node>
+            <node x="208.125" y="689.0">ua.khpi.oop.Rubiezhyn05.MainClass</node>
+            <node x="60.0" y="0.0">ua.khpi.oop.Rubiezhyn05.MyArrayList.MyIterator</node>
           </nodes>
           <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="290.0" y="333.0" />
-          <SelectedNodes />
+          <edges>
+            <edge source="ua.khpi.oop.Rubiezhyn05.MainClass" target="ua.khpi.oop.Rubiezhyn05.RubezhinClass">
+              <point x="63.375" y="-25.5" />
+              <point x="356.0" y="669.0" />
+              <point x="504.5" y="669.0" />
+              <point x="66.5" y="125.5" />
+            </edge>
+            <edge source="ua.khpi.oop.Rubiezhyn05.MainClass" target="ua.khpi.oop.Rubiezhyn05.MyArrayList">
+              <point x="-63.375" y="-25.5" />
+              <point x="229.25" y="669.0" />
+              <point x="71.25" y="669.0" />
+              <point x="-71.25" y="247.0" />
+            </edge>
+            <edge source="ua.khpi.oop.Rubiezhyn05.MyArrayList" target="ua.khpi.oop.Rubiezhyn05.MyArrayList.MyIterator">
+              <point x="-71.25" y="-247.0" />
+              <point x="71.25" y="120.0" />
+              <point x="101.25" y="120.0" />
+              <point x="-41.25" y="47.5" />
+            </edge>
+            <edge source="ua.khpi.oop.Rubiezhyn05.MyArrayList.MyIterator" target="ua.khpi.oop.Rubiezhyn05.MyArrayList">
+              <point x="41.25" y="47.5" />
+              <point x="183.75" y="120.0" />
+              <point x="213.75" y="120.0" />
+              <point x="71.25" y="-247.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-189.0" y="479.0" />
+          <SelectedNodes>
+            <node>ua.khpi.oop.Rubiezhyn05.MainClass</node>
+          </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
             <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
             <Category>Properties</Category>
             <Category>Methods</Category>
           </Categories>
@@ -722,18 +939,37 @@
           <ID>JAVA</ID>
           <OriginalElement>ua.khpi.oop.Rubiezhyn05.MainClass</OriginalElement>
           <nodes>
-            <node x="" y="">ua.khpi.oop.Rubiezhyn05.MyArrayList</node>
-            <node x="" y="">ua.khpi.oop.Rubiezhyn05.MainClass</node>
-            <node x="" y="">ua.khpi.oop.Rubiezhyn05.MyArrayList.MyIterator</node>
-            <node x="" y="">ua.khpi.oop.Rubiezhyn05.MainClass.IndWork</node>
+            <node x="0.0" y="145.0">ua.khpi.oop.Rubiezhyn05.MyArrayList</node>
+            <node x="58.0" y="689.0">ua.khpi.oop.Rubiezhyn05.MainClass</node>
+            <node x="60.0" y="0.0">ua.khpi.oop.Rubiezhyn05.MyArrayList.MyIterator</node>
           </nodes>
           <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="415.0" y="306.0" />
+          <edges>
+            <edge source="ua.khpi.oop.Rubiezhyn05.MainClass" target="ua.khpi.oop.Rubiezhyn05.MyArrayList">
+              <point x="-42.25" y="-25.5" />
+              <point x="100.25" y="664.0" />
+              <point x="71.25" y="664.0" />
+              <point x="-71.25" y="247.0" />
+            </edge>
+            <edge source="ua.khpi.oop.Rubiezhyn05.MyArrayList" target="ua.khpi.oop.Rubiezhyn05.MyArrayList.MyIterator">
+              <point x="-71.25" y="-247.0" />
+              <point x="71.25" y="120.0" />
+              <point x="101.25" y="120.0" />
+              <point x="-41.25" y="47.5" />
+            </edge>
+            <edge source="ua.khpi.oop.Rubiezhyn05.MyArrayList.MyIterator" target="ua.khpi.oop.Rubiezhyn05.MyArrayList">
+              <point x="41.25" y="47.5" />
+              <point x="183.75" y="120.0" />
+              <point x="213.75" y="120.0" />
+              <point x="71.25" y="-247.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8013157894736842" x="-382.0" y="157.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
             <Category>Properties</Category>
             <Category>Methods</Category>
           </Categories>
@@ -742,103 +978,240 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn03/CMain.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/RubezhinClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="98" column="2" lean-forward="true" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn04/CMainEntry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1530">
-          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="323">
+          <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="43" column="54" lean-forward="true" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="90" column="27" lean-forward="false" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
           <folding>
-            <element signature="docComment;class#CMainEntry#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#seeData#0;class#MainClass#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn02/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn03/CMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="98" column="2" lean-forward="true" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/PoliceCardBoard.java" />
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/PrisonerInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/Person.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="456" column="19" lean-forward="false" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/x.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/WriteToJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/ReadFromJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="method#readFromFile#0;class#ReadFromJSON#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#MyArrayList#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#sort#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#sort#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#toString#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#get#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#contains#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#contains#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#toArray#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#add#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#add#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#remove#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#remove#1;class#MyArrayList#0" expanded="false" />
-            <element signature="method#remove#1;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#containsAll#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#containsAll#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;method#iterator#0;class#MyArrayList#0" expanded="false" />
-            <element signature="docComment;class#MyIterator#0;class#MyArrayList#0" expanded="false" />
-            <element signature="class#MyIterator#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#hasNext#0;class#MyIterator#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#next#0;class#MyIterator#0;class#MyArrayList#0" expanded="false" />
-            <element signature="method#remove#0;class#MyIterator#0;class#MyArrayList#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/RubezhinClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="526">
+          <caret line="73" column="24" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
           <folding>
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="docComment;method#getTextFromConsole#0;class#RubezhinClass#0" expanded="false" />
-            <element signature="method#getTextFromConsole#0;class#RubezhinClass#0" expanded="false" />
-            <element signature="docComment;method#raspredelenieTextData#0;class#RubezhinClass#0" expanded="false" />
             <element signature="method#raspredelenieTextData#0;class#RubezhinClass#0" expanded="false" />
-            <element signature="docComment;method#findMinTextsFromTextArray#0;class#RubezhinClass#0" expanded="false" />
-            <element signature="method#findMinTextsFromTextArray#0;class#RubezhinClass#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn05/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#MainClass#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass2.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/ConsoleWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#printLine#0;class#ConsoleWork#0" expanded="false" />
+            <element signature="method#printLine#0;class#ConsoleWork#0" expanded="false" />
+            <element signature="docComment;method#printArray#0;class#ConsoleWork#0" expanded="false" />
+            <element signature="method#printArray#0;class#ConsoleWork#0" expanded="false" />
+            <element signature="docComment;method#addPrisonerFromConsole#0;class#ConsoleWork#0" expanded="false" />
+            <element signature="method#addPrisonerFromConsole#0;class#ConsoleWork#0" expanded="false" />
+            <element signature="docComment;method#printPrisoner#0;class#ConsoleWork#0" expanded="false" />
+            <element signature="method#printPrisoner#0;class#ConsoleWork#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rubiezhyn06/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn08/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="method#main#0;class#MainClass#0" expanded="false" />
+            <element signature="e#463#470#0" expanded="false" />
+            <element signature="docComment;method#getWay#0;class#MainClass#0" expanded="false" />
+            <element signature="method#getWay#0;class#MainClass#0" expanded="false" />
+            <element signature="docComment;method#writeOrReadMethod#0;class#MainClass#0" expanded="false" />
+            <element signature="method#writeOrReadMethod#0;class#MainClass#0" expanded="false" />
+            <element signature="docComment;method#getPrisonerFromXml#0;class#MainClass#0" expanded="false" />
+            <element signature="method#getPrisonerFromXml#0;class#MainClass#0" expanded="false" />
+            <element signature="docComment;method#setPrisonerToXml#0;class#MainClass#0" expanded="false" />
+            <element signature="method#setPrisonerToXml#0;class#MainClass#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#seeData#0;class#MainClass#0" expanded="false" />
+            <element signature="docComment;class#Person#0" expanded="false" />
+            <element signature="docComment;method#Person#0;class#Person#0" expanded="false" />
+            <element signature="method#Person#0;class#Person#0" expanded="false" />
+            <element signature="docComment;method#Person#1;class#Person#0" expanded="false" />
+            <element signature="method#Person#1;class#Person#0" expanded="false" />
+            <element signature="docComment;method#getMPIB#0;class#Person#0" expanded="false" />
+            <element signature="docComment;method#setMPIB#0;class#Person#0" expanded="false" />
+            <element signature="docComment;method#getMDateOfBirthd#0;class#Person#0" expanded="false" />
+            <element signature="docComment;method#setMDateOfBirthd#0;class#Person#0" expanded="false" />
+            <element signature="docComment;method#getMGrowth#0;class#Person#0" expanded="false" />
+            <element signature="docComment;method#setMGrowth#0;class#Person#0" expanded="false" />
+            <element signature="docComment;method#getMColorEyes#0;class#Person#0" expanded="false" />
+            <element signature="docComment;method#setMColorEyes#0;class#Person#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/PoliceCardBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;method#PoliceCardBoard#0;class#PoliceCardBoard#0" expanded="false" />
+            <element signature="method#PoliceCardBoard#0;class#PoliceCardBoard#0" expanded="false" />
+            <element signature="docComment;method#getNumberOfCardBoard#0;class#PoliceCardBoard#0" expanded="false" />
+            <element signature="docComment;method#getArrayOfPrisoner#0;class#PoliceCardBoard#0" expanded="false" />
+            <element signature="docComment;method#setArrayOfPrisoner#0;class#PoliceCardBoard#0" expanded="false" />
+            <element signature="docComment;method#addPrisoner#0;class#PoliceCardBoard#0" expanded="false" />
+            <element signature="method#addPrisoner#0;class#PoliceCardBoard#0" expanded="false" />
+            <element signature="docComment;method#removePrisoner#0;class#PoliceCardBoard#0" expanded="false" />
+            <element signature="method#removePrisoner#0;class#PoliceCardBoard#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#PoliceCardBoard#0" expanded="false" />
+            <element signature="method#get#0;class#PoliceCardBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/khpi/oop/Rybiezhyn07/PrisonerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#PrisonerInfo#0" expanded="false" />
+            <element signature="docComment;method#PrisonerInfo#0;class#PrisonerInfo#0" expanded="false" />
+            <element signature="docComment;method#PrisonerInfo#1;class#PrisonerInfo#0" expanded="false" />
+            <element signature="method#PrisonerInfo#1;class#PrisonerInfo#0" expanded="false" />
+            <element signature="docComment;method#getPerson#0;class#PrisonerInfo#0" expanded="false" />
+            <element signature="docComment;method#setPerson#0;class#PrisonerInfo#0" expanded="false" />
+            <element signature="docComment;method#getMListOfSpecialSigns#0;class#PrisonerInfo#0" expanded="false" />
+            <element signature="docComment;method#setMListOfSpecialSigns#0;class#PrisonerInfo#0" expanded="false" />
+            <element signature="method#setMListOfSpecialSigns#0;class#PrisonerInfo#0" expanded="false" />
+            <element signature="docComment;method#getMDateOfGoToJail#0;class#PrisonerInfo#0" expanded="false" />
+            <element signature="docComment;method#setMDateOfGoToJail#0;class#PrisonerInfo#0" expanded="false" />
+            <element signature="docComment;method#getMDateOfGoFromJail#0;class#PrisonerInfo#0" expanded="false" />
+            <element signature="docComment;method#setMDateOfGoFromJail#0;class#PrisonerInfo#0" expanded="false" />
+            <element signature="method#setMDateOfGoFromJail#0;class#PrisonerInfo#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -849,10 +1222,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Rubiezhyn:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -907,10 +1282,22 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Rubiezhyn05</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19885057" />
               </list>
             </option>
           </splitter-proportions>

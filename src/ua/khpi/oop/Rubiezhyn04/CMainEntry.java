@@ -116,7 +116,6 @@ public class CMainEntry {
         System.out.print("\"stop\" - остановка работы программы\n");
         System.out.print("\"-d\" или \"-debug\" - включение показа отладки после вызова методов\n");
         System.out.print("\"-h\" или \"-help\" - показ информации\n");
-
     }
 
     /**

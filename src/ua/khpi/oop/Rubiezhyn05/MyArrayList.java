@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.List;
 
 /**
  * Класс контейнер созданый для обработки типов данных
@@ -74,7 +73,7 @@ public class MyArrayList<T> implements Serializable,Collection<T> {
     /**
      * проверяем на наличие элемента в контейнере
      *
-     * @param obj объект для сверки
+     * @param o объект для сверки
      * */
     @Override
     public boolean contains(Object o) {
@@ -191,40 +190,50 @@ public class MyArrayList<T> implements Serializable,Collection<T> {
      * метод возвращающий созданый класс итератор
      * */
     public Iterator<T> iterator(){
-        return new MyIterator();
+        return new MyIterable().iterator();
     }
 
     /**
      * класс итератор для работы с циклом for-each
      * */
-    public class MyIterator implements Iterator<T> {
-        @Override
-        public boolean hasNext() {
-            int elem = cursor + 1;
-            if (elem == mSize){
-                cursor = -1;
-                return false;
-            } else
-                return (array[elem] != null);
-        }
+    public class MyIterable implements Iterable<T> {
 
         @Override
-        public T next() {
-            if (array == null) return null;
-            return array[++cursor];
+        public Iterator<T> iterator() {
+            return new mIterator();
         }
 
-        @Override
-        public void remove() {
-            if (array == null || cursor == -1 || cursor > mSize) return;
-            try{
-                MyArrayList.this.remove(cursor);
-                --cursor;
-            }catch (IndexOutOfBoundsException ex){
-                ex.printStackTrace();
+        private class mIterator implements Iterator<T> {
+
+            @Override
+            public boolean hasNext() {
+                int elem = cursor + 1;
+                if (elem == mSize) {
+                    cursor = -1;
+                    return false;
+                } else
+                    return (array[elem] != null);
             }
 
+            @Override
+            public T next() {
+                if (array == null) return null;
+                return array[++cursor];
+            }
+
+            @Override
+            public void remove() {
+                if (array == null || cursor == -1 || cursor > mSize) return;
+                try{
+                    MyArrayList.this.remove(cursor);
+                    --cursor;
+                }catch (IndexOutOfBoundsException ex){
+                    ex.printStackTrace();
+                }
+            }
         }
+
+
     }
 
     /** Внизу не использующиеся классы
@@ -232,26 +241,31 @@ public class MyArrayList<T> implements Serializable,Collection<T> {
      * Они являются заглушками
      * **/
 
+    /**заглушка*/
     @Override
     public <T1> T1[] toArray(T1[] a) {
         return null;
     }
 
+    /**заглушка*/
     @Override
     public boolean isEmpty() {
         return false;
     }
 
+    /**заглушка*/
     @Override
     public boolean addAll(Collection<? extends T> c) {
         return false;
     }
 
+    /**заглушка*/
     @Override
     public boolean removeAll(Collection<?> c) {
         return false;
     }
 
+    /**заглушка*/
     @Override
     public boolean retainAll(Collection<?> c) {
         return false;
