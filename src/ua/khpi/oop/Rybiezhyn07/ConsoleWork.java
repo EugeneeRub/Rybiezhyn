@@ -75,31 +75,31 @@ public class ConsoleWork {
         boolean flag = true;
         LinkedList<String> list = new LinkedList<>();
 
-        System.out.println("Введите данные о заключенном");
+        System.out.println("Input the information about prisoner");
 
         //get info from console about person
         {
-            System.out.print("Имя, Фамилия и Отчество заключенного (можно кличку): ");
+            System.out.println("Name, surname and middlename (can input the prisoner name)");
             person.setMPIB(in.nextLine());
 
-            System.out.print("Дата рождения: ");
+            System.out.print("Date of birth: ");
             person.setMDateOfBirthd(in.next());
 
-            System.out.print("Рост: ");
+            System.out.print("Growth: ");
             person.setMGrowth(in.nextFloat());
 
-            System.out.print("Цвет глаз: ");
+            System.out.print("Color of eyes: ");
             person.setMColorEyes(in.next());
         }
         prisoner.setPerson(person);
 
-        System.out.print("Дата заключения: ");
+        System.out.print("When go to jail: ");
         prisoner.setMDateOfGoToJail(in.next());
 
-        System.out.print("Дата освобождения: ");
+        System.out.print("When go from jail: ");
         prisoner.setMDateOfGoFromJail(in.next());
 
-        System.out.println("Особые примечания(\"-stop\" для остановки записи):");
+        System.out.println("Special signs(\"-stop\" for stop adding):");
         Scanner in2 = new Scanner(System.in);
         do {
             String text = in2.nextLine();

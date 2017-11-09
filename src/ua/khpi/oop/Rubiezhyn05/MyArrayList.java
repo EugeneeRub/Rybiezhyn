@@ -203,7 +203,7 @@ public class MyArrayList<T> implements Serializable,Collection<T> {
             return new mIterator();
         }
 
-        private class mIterator implements Iterator<T> {
+         class mIterator implements Iterator<T> {
 
             @Override
             public boolean hasNext() {
@@ -217,7 +217,8 @@ public class MyArrayList<T> implements Serializable,Collection<T> {
 
             @Override
             public T next() {
-                if (array == null) return null;
+                if (array == null)
+                    return null;
                 return array[++cursor];
             }
 

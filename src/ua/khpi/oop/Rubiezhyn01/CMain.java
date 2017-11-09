@@ -1,5 +1,7 @@
 package ua.khpi.oop.Rubiezhyn01;
 
+import com.ForWork.StringHelper;
+
 /**
  * Разработал Рубежин Евгений
  * Дата создания 06.09.2017
@@ -8,6 +10,7 @@ package ua.khpi.oop.Rubiezhyn01;
 public class CMain {
 
     public static void main(String[] args) {
+
         CTask3 task3 = new CTask3();
         task3.findCountOfBinaryNumbers(Integer.toBinaryString(9));
 

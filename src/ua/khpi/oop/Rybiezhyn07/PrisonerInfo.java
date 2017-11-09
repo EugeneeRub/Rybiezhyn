@@ -1,6 +1,8 @@
 package ua.khpi.oop.Rybiezhyn07;
 
+import javax.swing.text.html.HTMLDocument;
 import java.io.Serializable;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 /**
@@ -33,7 +35,8 @@ public class PrisonerInfo implements Serializable {
      * @param mDateOfGoToJail date of go to jail
      * @param mDateOfGoFromJail date of go from jail
      * */
-    public PrisonerInfo(Person person, LinkedList<String> mListOfSpecialSigns, String mDateOfGoToJail, String mDateOfGoFromJail) {
+    public PrisonerInfo(Person person, LinkedList<String> mListOfSpecialSigns, String mDateOfGoToJail,
+                        String mDateOfGoFromJail) {
         this.person = person;
         this.mListOfSpecialSigns = mListOfSpecialSigns;
         this.mDateOfGoToJail = mDateOfGoToJail;
@@ -77,7 +80,7 @@ public class PrisonerInfo implements Serializable {
     }
 
     /**
-     * Setter method for mDateOfGoToJail
+     * Getter method for mDateOfGoToJail
      *
      * @return mDateOfGoToJail date of got to jail
      * */
@@ -95,7 +98,7 @@ public class PrisonerInfo implements Serializable {
     }
 
     /**
-     * Setter method for mDateOfGoFromJail
+     * Getter method for mDateOfGoFromJail
      *
      * @return mDateOfGoFromJail date of got from jail
      * */

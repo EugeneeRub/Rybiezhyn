@@ -20,6 +20,8 @@ class RubezhinClass {
         list = _list;
     }
 
+    public static void main(String[] args) {}
+
     /**
      * Проход по ArrayList и получение строки в StringBuilder
      * Проверка по первому символу и запись в нужный участок

@@ -18,14 +18,14 @@ import java.util.Scanner;
 public class MainClass {
 
     public static void main(String[] args) {
-        //try {
-        //    /**
-        //     * Set encode that have a computer
-        //     * */
-        //    System.setOut(new PrintStream(System.out,true,System.getProperty("consoleEncoding")));
-        //} catch (UnsupportedEncodingException e) {
-        //    e.printStackTrace();
-        //}
+       //try {
+       //    /**
+       //     * Set encode that have a computer
+       //     * */
+       //    System.setOut(new PrintStream(System.out,true,System.getProperty("consoleEncoding")));
+       //} catch (UnsupportedEncodingException e) {
+       //    e.printStackTrace();
+       //}
         boolean flag = true;
         PoliceCardBoard cardBoard = new PoliceCardBoard(1);
         Scanner in = new Scanner(System.in);

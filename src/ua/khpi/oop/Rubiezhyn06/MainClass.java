@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.Iterator;
 import java.util.Scanner;
 
+import other.Strok;
 import ua.khpi.oop.Rubiezhyn05.*;
 
 public class MainClass {
@@ -39,6 +40,18 @@ public class MainClass {
                     break;
                 case "work":
                     workWithData(list);
+                    break;
+                case "friendClass":
+                    System.out.println("Работа чужого кода");
+                    in = new Scanner(System.in);
+                    System.out.print("Enter string number 1: \n");
+                    String a1 = in.nextLine();
+                    System.out.print("Enter string number 2:\n ");
+                    String b1 = in.nextLine();
+                    System.out.print("Enter string number 3: \n");
+                    String c1 = in.nextLine();
+                    Strok.Start_ABC(a1, b1, c1);
+                    Strok.shortStr(a1, b1, c1);
                     break;
                 case "help":
                     help();
@@ -104,6 +117,7 @@ public class MainClass {
         System.out.println("Команда getData - запись данных в контейнер");
         System.out.println("Команда help - помощь с командами");
         System.out.println("Команда work - работа со списком");
+        System.out.println("Команда friendClass - работа с jar-файлом одногрупника");
         System.out.println("Команда exit - завершение работы");
         System.out.println("------------------------------------------------------------------");
         System.out.println("Команды для работы со списком");
