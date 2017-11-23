@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Iterator;
 import java.util.Scanner;
 
-import other.Strok;
+import lib.RubezhinClass;
 import ua.khpi.oop.Rubiezhyn05.*;
 
 public class MainClass {
@@ -42,16 +42,15 @@ public class MainClass {
                     workWithData(list);
                     break;
                 case "friendClass":
-                    System.out.println("Работа чужого кода");
-                    in = new Scanner(System.in);
-                    System.out.print("Enter string number 1: \n");
-                    String a1 = in.nextLine();
-                    System.out.print("Enter string number 2:\n ");
-                    String b1 = in.nextLine();
-                    System.out.print("Enter string number 3: \n");
-                    String c1 = in.nextLine();
-                    Strok.Start_ABC(a1, b1, c1);
-                    Strok.shortStr(a1, b1, c1);
+                    RubezhinClass rubezhinClass = new RubezhinClass(list);
+                    int []mArray = rubezhinClass.raspredelenieTextData();// вызов ф-ции распределения строк
+                    String []mArrayOfSmallText = rubezhinClass.findMinTextsFromTextArray();// вызов ф-ции нахождения минимальных строк в группах
+                    System.out.println("Самые маленькие строки");
+                    for (int i = 0; i < mArray.length; i++) {
+                        if(mArray[i] != 0){
+                            System.out.println(mArrayOfSmallText[i] + " = " + mArrayOfSmallText[i].length() + " длинна строки");
+                        }
+                    }
                     break;
                 case "help":
                     help();

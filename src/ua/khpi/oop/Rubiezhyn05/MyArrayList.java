@@ -18,6 +18,7 @@ public class MyArrayList<T> implements Serializable,Collection<T> {
     public MyArrayList() {
         array = (T[]) new Object[0];
         cursor = -1;
+        mSize = 0;
     }
 
     /**
@@ -144,8 +145,8 @@ public class MyArrayList<T> implements Serializable,Collection<T> {
      * проход по циклу для сравнения элементов, если есть совпадение
      * то пропусскаем запись, иначе записываем элемент
      * */
-    boolean remove(int index) {
-        if(index < 0 || index > mSize || array == null) return false;
+    public boolean removeByIndex(int index) {
+        if(index < 0 || index > mSize || array == null || mSize == 0) return false;
         boolean flagForExeption = true;
         T[] newArrayOfElems = (T[]) new Object[mSize-1];
         int j = 0;

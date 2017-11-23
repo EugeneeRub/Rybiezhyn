@@ -1,14 +1,11 @@
 package ua.khpi.oop.Rubiezhyn10;
 
-import other.Strok;
 import ua.khpi.oop.Rybiezhyn07.ConsoleWork;
 import ua.khpi.oop.Rybiezhyn07.PrisonerInfo;
 import ua.khpi.oop.Rybiezhyn09.LinkConteiner;
 import ua.khpi.oop.Rybiezhyn09.Main;
 
-import java.util.Arrays;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.Scanner;
 
 /**

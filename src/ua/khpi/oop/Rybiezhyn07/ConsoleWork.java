@@ -11,36 +11,6 @@ import java.util.Scanner;
  * Data 25.10.2017
  * */
 public class ConsoleWork {
-    private static int arr[] = {30,20,11,16,22};// array of width of objects
-    private static int index = 0;// index that say that number we must take from arr[]
-    private static String str;// string for get size and decrement lenght
-    private static boolean flag = true;// flag for first element
-
-    /**
-     * Method that print in line words that are equals by width
-     *
-     * @param elem object that will be input in line
-     * */
-    public void printLine(Object elem) {
-        if (index == 5) {
-            index = 0;
-            flag = true;
-        }
-        if (flag) {
-            System.out.print(elem);
-            str = elem.toString();
-            flag = false;
-        } else {
-            int len = arr[index] - str.length();
-            for (int i = 0; i < len; i++) {
-                System.out.print(" ");
-            }
-            str = elem.toString();
-            System.out.print(elem);
-            index++;
-        }
-    }
-
     /**
      * Method tha print all prisoners from array
      *
@@ -120,14 +90,15 @@ public class ConsoleWork {
      * */
     public void printPrisoner(PrisonerInfo prisoner){
         Person person = prisoner.getPerson();
+        CorrectPrint print = new CorrectPrint(new int[]{35,20,11,16,22});
         System.out.printf("%s%27s%11s%16s%22s%24s\n","ИФО (или кличка)","День рождения","Рост","Цвет глаз","Дата заключения",
                 "Дата освобождения");
-        printLine(person.getMPIB());
-        printLine(person.getMDateOfBirthd());
-        printLine(person.getMGrowth());
-        printLine(person.getMColorEyes());
-        printLine(prisoner.getMDateOfGoToJail());
-        printLine(prisoner.getMDateOfGoFromJail());
+        print.printLine(person.getMPIB());
+        print.printLine(person.getMDateOfBirthd());
+        print.printLine(person.getMGrowth());
+        print.printLine(person.getMColorEyes());
+        print.printLine(prisoner.getMDateOfGoToJail());
+        print.printLine(prisoner.getMDateOfGoFromJail());
         System.out.println();
         LinkedList<String> list = prisoner.getMListOfSpecialSigns();
         System.out.println("Особые примечания:");
