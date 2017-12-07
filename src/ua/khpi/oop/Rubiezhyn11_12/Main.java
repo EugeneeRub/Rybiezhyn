@@ -45,8 +45,7 @@ public class Main {
                         mIn = new Scanner(System.in);
                         System.out.println("Input regex for russian text");
                         String tempRus = mIn.nextLine();
-                        //String tempRus = "(Тату|тату|Татуировку|татуировку|Татуировка|татуировка|татуировкой)"+
-                        //" (в|с)? (виде|вида|форме) (своего|своим) (имени|именем)";
+                        //String tempRus = "(Тату|тату|Татуировку|татуировку|Татуировка|татуировка|татуировкой) (в|с)? (виде|вида|форме) (своего|своим) (имени|именем)";
                         System.out.println("Input regex for english text");
                         String tempEng = mIn.nextLine();
                         //String tempEng = "((Tattoo|tattoo) with (his|him) name)";
@@ -149,6 +148,9 @@ public class Main {
     /**
      * Method print all about prisoner
      * by using special class that was developed myself
+     *
+     * (Tatoo|tatoo) with (her|his) name
+     * (Тату|тату|Татуировка|татуировка|татуха) в (виде|форме) своего имени
      * */
     private static void printData() {
         if(cList == null || cList.size() == 0) {

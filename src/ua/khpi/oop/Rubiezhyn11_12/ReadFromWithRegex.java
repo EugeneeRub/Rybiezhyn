@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
  * @author Rubezhin Evgeniy
  * Data 23.11.2017
  * */
-class ReadFromWithRegex {
+public class ReadFromWithRegex {
     private static final String DATEPATTERN = "(0[1-9]|[1-2][0-9]|3[0-1])(\\.|\\,)(0[1-9]|1[0-2])(\\.|\\,)([0-9]{4}|[0-9]{2})";
     private static final String COLOREYESPATTERN = "\\D+";
     private static final String NAMEPATTERN = "((\\w+)|(\\w+ \\w+ \\w+)|([а-яА-Я]+|([а-яА-Я]+ [а-яА-Я]+ [а-яА-Я]+)))";

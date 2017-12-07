@@ -6,7 +6,7 @@ package ua.khpi.oop.Rubiezhyn11_12;
  * @author Rubezhin Evgeniy
  * Data 23.11.2017
  * */
-class NotMatchedDataExeption extends Exception{
+public class NotMatchedDataExeption extends Exception{
     private String text = null;
 
     NotMatchedDataExeption(String text){

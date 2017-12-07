@@ -31,7 +31,7 @@ public class FinderInText {
         char ch = list.get(0).charAt(0);
         if (( ch >= 65 && ch <= 90 || ch >= 97 && ch <= 122))
            return specialFinder(list,tempEng,parseRegex(tempEng));
-        else if (( ch >= 'а' && ch <= 'я' || ch >= 'А' && ch <= 'Я'))
+        else if (( ch >= 'я' && ch <= 'я' || ch >= 'А' && ch <= 'Я'))// от а до я + верхнего регистра
            return specialFinder(list,tempRus,parseRegex(tempRus));
         return false;
     }
@@ -113,7 +113,8 @@ public class FinderInText {
                 listOfString.add(builder.toString());
                 builder.delete(0,builder.length());
             }else if (( ch >= 65 && ch <= 90 || ch >= 97 && ch <= 122)
-                    || ( ch >= 'а' && ch <= 'я' || ch >= 'А' && ch <= 'Я')) {
+                    || ( ch >= 'я' && ch <= 'я' || ch >= 'А' && ch <= 'Я'))// от а до я + верхнего регистра
+            {
                 builder.append((char) ch);
             } else {
                 if (!builder.toString().isEmpty()) {
